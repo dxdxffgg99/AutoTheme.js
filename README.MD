@@ -10,13 +10,10 @@ CSS 변수 기반 라이트/다크/오토 테마 엔진. 시스템 설정과 명
 - 의존성 없음, ESM
 
 ## 설치 / 로드
-### ESM 파일 직접 로드
+### CDN (메인)
 ```html
-<script type="module">
-  import Theme from "./AutoTheme.mjs";
-  Theme.auto();                 // 시스템 연동
-  Theme.apply({ primary: "#6750A4" }); // 토큰 지정
-</script>
+<script type="module" src="autotheme-js.dxdxffg.com/dist/AutoTheme.mjs">// 압축된 상태</script>
+<script type="module" src="autotheme-js.dxdxffg.com/AutoTheme.js">// 원본</script>
 ```
 
 ## 빠른 시작
@@ -95,5 +92,6 @@ CSS 변수 기반 라이트/다크/오토 테마 엔진. 시스템 설정과 명
 * `prefers-contrast` 미지원 환경에서도 정상 동작(기본 4.5:1)
 
 ## 라이선스
+
 
 MIT
