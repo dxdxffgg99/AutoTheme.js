@@ -12,8 +12,8 @@ CSS 변수 기반 라이트/다크/오토 테마 엔진. 시스템 설정과 명
 ## 설치 / 로드
 ### CDN (메인)
 ```html
-<script type="module" src="autotheme-js.dxdxffg.com/dist/AutoTheme.mjs">// 압축된 상태</script>
-<script type="module" src="autotheme-js.dxdxffg.com/AutoTheme.js">// 원본</script>
+<script type="module" src="https://autotheme-js.dxdxffg.com/dist/AutoTheme.mjs">// 압축된 상태</script>
+<script type="module" src="https://autotheme-js.dxdxffg.com/AutoTheme.js">// 원본</script>
 ```
 
 ## 빠른 시작
@@ -95,3 +95,4 @@ CSS 변수 기반 라이트/다크/오토 테마 엔진. 시스템 설정과 명
 
 
 MIT
+
